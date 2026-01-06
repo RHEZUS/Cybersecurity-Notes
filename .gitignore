@@ -1,0 +1,45 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.suo
+*.swp
+*.bak
+*.tmp
+
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if you add scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Bash / script temp files
+*.sh~
+*.log
+
+# Secrets or credentials
+*.key
+*.pem
+*.crt
+*.env
+secrets/
+config_local.yml
+*.json # if containing sensitive configs (optional)
+
+# Lab files / test artifacts
+lab_outputs/
+*.pcap
+*.zip
+
+# Misc
+*.cache
+*.DS_Store
+*.coverage
